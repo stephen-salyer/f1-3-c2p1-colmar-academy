@@ -1,0 +1,498 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+	font-family: Helvetica;
+	letter-spacing: 1px;
+	font-size: 16px;
+	color: #4A4A4A;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #4A4A4A;
+}
+
+.container {
+	margin: auto;
+	height: 64px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logonav {
+	display: flex;
+	align-items: center;
+	background-color: white;
+	justify-content: space-between;
+	height: 64px;
+}
+
+nav img {
+	height: 70px;
+	margin-left: 1rem;
+}
+
+.mobile-menu {
+	display: none;
+}
+
+.firstword {
+	color: #4A4A4A;
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.secondword {
+	color: #9B9B9B;
+	font-size: 2rem;
+}
+
+ul {
+	margin-right: 1.5rem;
+}
+
+li {
+	font-weight: 200;
+	display: inline;
+	padding-right: 1rem;
+	font-size: 1.5rem;
+	color: #4A4A4A;
+}
+
+.flex-container-one .banner {
+	flex: 1 1 60%;
+	margin: 2rem 1.5rem;
+}
+
+.banner img {
+	width: 100%;
+}
+
+.flex-container-one {
+	display: flex;
+	background-color: #EAEBEC;
+	background-size: cover;
+	align-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+.flex-container-one .content {
+	flex: 1 1 40%;
+	flex-direction: column;
+	margin: 1.5rem 1.5rem;
+}
+
+.flex-container-one .content a {
+	text-decoration: none;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.button {
+	color: white;
+	font-weight: 200;
+	font-size: 1.5rem;
+	background-color: #4A4A4A;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: background-color .5s ease;
+}
+
+.button:hover {
+	background-color: white;
+	color: #4A4A4A;
+}
+
+
+.flex-container-two {
+	display: flex;
+	margin: auto;
+}
+
+.information-main {
+	width: 60%;
+	margin: 2rem 1.5rem;
+}
+
+
+p {
+	font-size: 1.3rem;
+	font-weight: 100;
+}
+
+.information-main h1 {
+	font-size: 3rem;
+	margin-top: 2rem;
+}
+
+.information-main h5 {
+	font-size: 1rem;
+	font-weight: 200;
+	margin-top: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+.articles {
+	width: 40%;
+	flex-direction: column;
+}
+
+.article:hover {
+	background-color: #EAEBEC;
+	transition: background-color .6s ease;
+}
+
+.mobile-articles {
+	display: none;
+}
+
+.article img {
+	width: 100%;
+	max-width: 280px;
+	height: auto;
+	margin: 1rem;
+}
+
+.article {
+	flex: 1 1 40%;
+	display: flex;
+	margin: 1rem 0 1rem 1rem;
+}
+
+.article h1 {
+	font-size: 4rem;
+	font-weight: bold;
+	margin: auto;
+}
+
+.article h4 {
+	font-size: 2rem;
+	font-weight: 400;
+	margin: 0;
+}
+
+.article a {
+	color: skyblue;
+	text-decoration: none;
+}
+
+.information {
+	display: flex;
+	width: 65%;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	margin-left: 2rem;
+}
+
+
+
+.content h4 {
+	font-size: 1.5rem;
+	margin: 2rem 0 2rem 0;
+}
+
+.content h1 {
+	font-size: 4rem;
+	margin: 0;
+}
+
+.button h4 {
+	font-size: 2rem;
+	font-weight: 100;
+	margin: 1rem 0 1rem 0;
+}
+
+
+
+.main-story-image {
+	width: 60%;
+	float: left;
+}
+
+.main-story-information {
+	padding: 1rem;
+}
+
+.information-main img {
+	width: 100%;
+}
+
+.article-image {
+	width: 35%;
+}
+
+.flex-container-three {
+	display: flex;
+	flex-direction: column;
+	background-color: #EAEBEC;
+}
+
+.card {
+	flex: 1 0 30%;
+	margin: 0 1rem 2rem 1rem;
+	background-color: white;
+}
+
+.mobile-card {
+	display: none;
+}
+
+.thesisexhibit {
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 2rem;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 2rem 3.5rem 2rem 3.5rem;
+}
+
+.startlearning h1 {
+	Margin: 0;
+}
+
+.card-image img {
+	width: 100%;
+}
+
+.class-information h4 {
+	font-weight: 400;
+	margin: 0;
+}
+
+.class-information {
+	margin: 1rem;
+	font-size: 2rem;
+	padding-right: 4rem;
+}
+
+.thesisexhibit h1 {
+	Margin: 0;
+}
+
+.video {
+	width: 60%;
+	margin: 2rem 1.5rem;
+}
+
+.flex-container-four {
+	display: flex;
+}
+
+video {
+	width: 100%;
+}
+
+.video h1 {
+	font-size: 2rem;
+	margin-top: 2rem;
+}
+
+.video h5 {
+	font-size: 1rem;
+	font-weight: 200;
+	margin-top: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+.footer-container {
+	display: flex;
+	align-items: center;
+	margin: 1rem 1.5rem 1rem 1.5rem;
+	justify-content: space-between;
+}
+
+.left-footer {
+	display: flex;
+	align-items: center;
+}
+
+.right-footer {
+	display: flex;
+	align-items: center;
+}
+
+.startlearning {
+	text-align: center;
+	font-size: 1.5rem;
+	margin-top: 2rem;
+}
+
+.left-footer h5 {
+	font-weight: 100;
+}
+
+.right-footer a {
+	text-decoration: none;
+	margin-right: 1rem;
+}
+
+.menu a {
+	text-decoration: none;
+}
+
+.container a {
+	text-decoration: none;
+}
+
+/* ----- Mobile Styles -----*/
+
+@media only screen and (max-width: 1024px) {
+	.mobile-menu {
+		display: flex;
+	}
+	
+	.mobile-menu img {
+		width: 40px;
+		margin: 0 4rem 0 2rem;
+	}
+	
+	.logonav {
+	display: none;
+	}
+	
+	.container {
+		display: flex;
+		justify-content: center;
+	}
+	
+	.menu {
+		display: none;
+	}
+	
+	.flex-container-one {
+	display: flex;
+	flex-direction: column;
+	background-color: #EAEBEC;
+	background-size: cover;
+	align-content: center;
+	align-items: center;
+	}
+	
+	.flex-container-one .banner {
+		flex: auto;
+		margin: 0;
+	}
+	
+	.flex-container-one .content {
+		margin: 2rem 1rem 2rem 1rem;
+	}
+	
+	.content h4 {
+		margin: 2rem 0 1.5rem 0;
+	}
+	
+	.button h4 {
+		margin: 1rem 0 1rem 0;
+	}
+	
+	.information-main {
+		display: none;
+	}
+	
+	.articles {
+		display: none;
+	}
+	
+	.mobile-articles {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin: 1rem 1rem 1rem 1rem;
+	}
+	
+	.mobile-article {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	
+	.mobile-article img {
+		width: 100%;
+		background-size: cover;
+	}
+	
+	.mobile-information {
+		margin: 4rem 1rem 4rem 1rem;
+	}
+	
+	.mobile-information h4 {
+		font-size: 2rem;
+		font-weight: bold;
+		margin: 0;
+	}
+	
+	.mobile-article a {
+		color: skyblue;
+		text-decoration: none;
+	}
+	
+	.startlearning {
+		margin: 2rem 1rem;
+	}
+	
+	.flex-container-three {
+		background-color: white;
+	}
+	
+	.cards {
+		display: none;
+	}
+	
+	.mobile-cards {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin: 0 0 2rem 0;
+	}
+	
+	.mobile-card {
+		display: block;
+		background-color: #EAEBEC;
+		margin: .25rem 1rem .25rem 1rem;
+	}
+	
+	.mobile-card h2 {
+		margin: 2rem 1rem 2rem 1rem;
+	}
+	
+	.thesisexhibit {
+		margin: 2rem 0 1rem 0;
+	}
+	
+	.video {
+		width: 100%;
+		margin: 0 0 1.5rem 0;
+	}
+	
+	.video h1 {
+		display: none;
+	}
+	
+	.video h5 {
+		display: none;
+	}
+	
+	.right-footer {
+		display: none;
+	}
+	
+	.left-footer h5 {
+		font-size: 1.5rem;
+	}
+
+}
+
+body {
+	Margin: 0;
+}
